@@ -14,9 +14,13 @@ int main(void)
 	char letter;
 
 	for (i = '0'; i <= '9'; i++)
+	{
 		putchar(i);
+	}	
 	for (letter = 'a'; letter <= 'f'; letter++)
+	{
 		putchar(low);
+	}
 	putchar('\n');
 
 	return (0);
